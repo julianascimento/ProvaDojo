@@ -1,0 +1,12 @@
+﻿@model ProvaDojo.Models.TipoDeAssociacao
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Nome</h2>
+<ul>
+    <li>Nome: @Model.Nome</li>
+    <li>Período: @Model.Periodo mês/meses</li>
+    <li>Mensalidade:R$ @Model.Mensalidade </li>
+</ul>

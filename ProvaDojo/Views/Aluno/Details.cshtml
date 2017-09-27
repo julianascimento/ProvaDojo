@@ -1,0 +1,12 @@
+﻿@model ProvaDojo.Models.Aluno
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Nome</h2>
+<ul>
+    <li>Nome: @Model.Nome</li>
+    <li>Faixa: @Model.Faixa.Nome</li>
+    <li>Tipo de Associação: @Model.TipoDeAssociacao.Nome</li>
+</ul>
